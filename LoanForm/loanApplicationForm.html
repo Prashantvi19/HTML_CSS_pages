@@ -1,0 +1,83 @@
+<!-- loanApplicationForm Assignment On 15/01/2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+		input {
+			width: 200px;
+			height: 4px;
+			padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+
+		}
+
+		label {
+			width: auto;
+			height: inherit;
+			padding: 12px;
+
+
+		}
+	</style>
+
+	<title>loanApplicationForm Assignment On 15/01/2023</title>
+</head>
+
+<body>
+	<h1 style="text-align: center;margin: 0% ;padding: 0%;"><b> Loan Application</b> </h1><br>
+	<div style="text-align: center;margin-left: 300px;margin-right: 300px;border: 1px solid #ccc; border-radius: 4px;">
+		<form action="index.html">
+
+			<div>
+				<h2 style="text-align: center; background-color: rgb(165, 152, 185);">Application Information :</h2><br>
+				<label style="margin-top: 5px; margin-left:20px;"> First Name:</label>
+				<input style="margin-top: 5px; margin-right: 12px;" type="text" name="" id=""><br>
+				<label style="margin-top: 5px; margin-left:19px;">Last Name:</Label>
+				<input style="margin-top: 5px; margin-left: 12px;" type="text" name="" id=""><br>
+				<label style="margin-top: 5px; margin-left:15px;" for="">E-mail ID:</label>
+				<input style="margin-top: 5px; margin-left: 12px;" type="email"><br>
+				<label style="margin-top: 5px; margin-left:55px;" for="">Social Security#:</label>
+				<input style="margin-top: 5px; margin-left: 12px;" type="tel" name=""
+					pattern=" [0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="3455-1093-2345"><br>
+				<label style="margin-top: 5px; margin-left:50px;" for="">Daytime Phone:</label>
+				<input style="margin-top: 5px; margin-left: 12px;" type="number" name="" id=""><br>
+				<label style="margin-top: 5px; margin-left:50px;" for="">Evening Phone:</label>
+				<input style="margin-top: 5px; margin-left: 12px;" type="number" name="" id=""><br>
+			</div>
+			<div>
+				<h2 style="background-color: rgb(165, 152, 185);">Loan Information:</h2><br>
+				<label style="margin-top: 5px; margin-left:-10px;"> Loan Type: </label>
+				<select style="width: 200px;  height: 25px; border: 1px solid rgb(135, 134, 134);  background: rgb(197, 211, 230);  border-radius: 4px;">
+					<option value="">Home Loan</option>
+					<option value="">Auto Loan</option>
+					<option value="">Business Loan</option>
+					<option value="">Education Loan</option>
+					<option value="" selected>Automobile Loan</option>
+				</select><br>
+				<label style="margin-top: 5px; margin-left:45px;"> Loan Amount:</label>
+				<input style="margin-top: 5px; margin-left: 12px;" type="text" name="" id=""><br>
+				<table style=" margin-top: 5px; margin-left: 212px; margin-right: auto;" >
+					<tr>
+						<td>
+							<label > Description:</label>
+						</td>
+						<td>
+							<textarea  name="" id="" cols="30"
+								rows="5"></textarea><br>
+						</td>
+					</tr>
+				</table>
+				<label style="margin-top: 5px; margin-left:-42px;"> Submit Application:</label>
+				<input
+					style="  height: 25px;  border: 1px solid rgb(135, 134, 134); background: rgb(197, 211, 230);  border-radius: 4px; margin: 4px; width: 120px;  padding: 0%;;"
+					type="submit" value=" Apply For Loan"><br>
+			</div>
+		</form>
+	</div>
+
+</body>
+
+</html>
